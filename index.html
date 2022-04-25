@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Vegas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Cada sección de la página está dentro de un div con una id en acrónimo si el nombre es muy largo: "Casinos" -> "csn"; "Contact us" -> "ctu"; "Entertainment" a "ent".-->
+
+
+    
+    <div id="home">
+        <main id="homeMain">
+            <div id="homeMainDiv">
+                <ul>
+                    <li>
+                        <a href="#us">
+                            <p>About us!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#merch">
+                            <p>Merch!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#csn">
+                            <p>Casinos!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ent">
+                            <p>Entertainment!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ctu">
+                            <p>Contact us!</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+<!--"us" se refiere a la sección "About us".-->
+
+    <div id="us">
+            <h2>
+                <img src="media/img/logo/about us.jpg" alt="Vault Boy giving a speech">
+                <span><a href="subpages/aboutus.html" class="h2A">About us!</a></span>
+            </h2>
+        <main id="usMain">
+            <!--"Cnt" hace referencia a "Content" (el contenido que tendrá la sección)-->
+            <div id="usCnt">
+                <div class="usCnt">
+                    <video src="./media/img/video/Fallout__New_Vegas_Intro_Trim.mp4" controls></video>
+                </div>
+            <div class="usCnt">
+                <details>
+                    <summary>Who are we?</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptas?</p>
+                </details>
+                <details>
+                    <summary>Where are we?</summary>
+                    <p>Quia, fugit. Quis quisquam amet consectetur adipisci iusto ut nemo.</p>
+                </details>
+                <details>
+                    <summary>What do we offer?</summary>
+                    <p>Distinctio accusamus necessitatibus facere officia hic consectetur doloribus aut consequatur.</p>
+                </details>
+                <details>
+                    <summary>Do you want to contact us?</summary>
+                    <p>Deleniti suscipit quaerat doloribus amet necessitatibus explicabo debitis iste cum.</p>
+                </details>
+            </div>
+            </div>
+        </main>
+    </div>
+
+<!--Sección para "Merch"-->
+
+    <div id="merch">
+        <h2>
+            <a href="subpages/merch.html">
+            <img src="media/img/logo/merch.jpg" alt="Vault Boy holding a bag of Nuka Caps">
+            <span><a href="subpages/merch.html"> Merch!</a></span>
+        </h2>
+        <main id="merchMain">
+            <div>
+                <p>Got some extra caps? Looking for a good time? Well, we've got you covered! Come on down to the fabulous New Vegas and have the time of your life! Here in New Vegas you can enjoy the games at our world-famous casinos, enjoy a refreshing beverage while you try some of the best food you'll ever experience in your lifetime, relax and have a beautiful night's rest at some of the best hotels the Mojave has to offer, and while you're there you can even take a trip to our wonderful gift shop.</p>
+
+            </div>
+        </main>
+    </div>
+
+<!--"csn" hace referencia a "Casinos".-->
+
+    <div id="csn">
+        <h2>
+            <img src="media/img/logo/casino.jpg" alt="Vault Boy dealing cards">
+            <span><a href="subpages/casinos.html">Casinos!</a></span>
+        </h2>
+        <main id="csnMain">
+            <h3 id="csnH3">Discover our casinos!</h3>
+            <div id="csnDiv">
+                <div class="csnCsn">
+                    <h4 class="csnH4">The Tops!</h4>
+                    <img src="./media/img/casinos/ScreenShot161.bmp" alt="Picture of 'The tops'" id="csnImgTheTops">
+                    <p class="csnDivP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ratione molestias aliquid expedita velit deleniti?</p>
+                </div>
+                <div class="csnCsn">
+                    <h4 class="csnH4">Ultra Luxe!</h4>
+                    <img src="./media/img/casinos/ultraluxe.png" alt="Picture of 'Ultra Luxe'" id="csnImgUL">
+                    <p class="csnDivP">Laudantium debitis error numquam facere accusamus, aperiam molestias at. Commodi neque accusamus iusto quidem illo.</p>
+                </div>
+                <div class="csnCsn">
+                    <h4 class="csnH4">Gamorrah!</h4>
+                    <img src="./media/img/casinos/g2.png" alt="Picture of 'Gamorrah'" id="csnImgGam">
+                    <p class="csnDivP">Numquam, corporis voluptatum? Aliquid sed voluptatum veniam aliquam illum asperiores mollitia ut, adipisci nam nostrum!</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+<!--"ent" es una abreviación de "Entertainment" (entretenimiento)-->
+
+<div id="ent">
+    <h2>
+        <a href="https://www.youtube.com/results?search_query=Fallout+New+Vegas+"> Entertainment!</a>
+    </h2>
+    <main id="entMain">
+        <div id="entDiv">
+            <div class="entDiv">
+                <iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL5ty576dcOdx_kYbXN9KS3QnLgGEjTs8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="entDiv">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0DL2UQXFnUNTq9bVADBJZz?utm_source=generator" width="500" height="280" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!--"ctu" quiere decir "Contact us!".-->
+
+    <div id="ctu">
+        <h2>
+            <img src="media/img/logo/contact.jpg" alt="Vault Boy using a terminal">
+            <a href="subpages/contact.html">Contact us!</a>
+        </h2>
+        <main id="ctuMain">
+            <div id="ctuMainDiv1">
+                <p>Do you want to <span> <a href="./subpages/contact.html"> CONTACT US</a></span>? We will gladly take any suggestions or business proposals! Inquiries will be attended from 10 AM to 3 PM on Thursdays, Wednesdays and Fridays! </p><br>
+                <p>On the other hand, if you wish to work with us, good news! We are also <a href="./subpages/contact.html">HIRING!</a> This is a list of the current casinos that are taking new staff:</p>
+                <div id="ctuUL">
+                    <ul>
+                        <li><a href="./subpages/contact.html"> The Tops! </a></li>
+                        <li><a href="./subpages/contact.html"> Ultra Luxe! </a></li>
+                        <li><a href="./subpages/contact.html"> Gamorrah! </a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <footer id="footer">
+        <div>
+            <p>Special thanks to a cow with a Christmas hat, an evil cat and a dumb frog drinking a juice box. </p>
+        </div>
+    </footer>
+</body>
+</html>

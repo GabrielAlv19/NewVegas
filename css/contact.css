@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Esta sección es para la parte de navegación */
+
+#barHeader{
+    width: 100%;
+    height: auto;
+}
+#barDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #6d2519;
+}
+.barDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.barLi{
+    list-style: none;
+}
+
+.barA{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #e8e6d3;
+}
+
+.barDiv:hover{
+    border: 2px solid #efa443;
+    padding: 2px;
+}
+.barA:hover{
+    color: #efa443;
+}
+
+/*Esta sección es para el contenido de la página*/
+
+.ctuMain{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Esta sección es para el header*/
+
+#homeHeader{
+    background-color: #e6a984;
+    height: auto;
+    width: 100%;
+}
+.homeH1Span{
+    color: rgba(178,31,32,255);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    text-align: center;
+}
+#homeH1Span{
+    color: #0056a1;
+    margin: 0%;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.homeHeaderSection{
+    width: auto;
+    height: auto;
+    border: 2px #da933d solid;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#homeHeaderNav{
+    height: auto;
+    width: 100%;
+    background-color: #6d2519;
+}
+.headerUlLi{
+    list-style: none;
+    display: inline-block;
+}
+#homeHeaderNavDiv{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.headerUlLi a{
+    color: #e8e6d3;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 8px;
+    padding-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.headerUlLi a:hover{
+    color: #fdb98a;
+}
+
+/*Esta sección es para el contenido de la página*/
